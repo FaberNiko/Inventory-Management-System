@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtualenv
+inventory-backend/venv/
+
+# Django
+inventory-backend/db.sqlite3
+*.log
+
+# OS
+.DS_Store

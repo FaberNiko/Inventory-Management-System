@@ -16,7 +16,7 @@ class Variant(models.Model):
         related_name = "variants"
     )
     color = models.CharField(max_length = 20, default="unknown")
-    size = models.CharField(max_length = 10)
+    size = models.CharField(max_length = 10, default = "unknown")
     quantity = models.IntegerField(default = 0)
 
     class Meta:
